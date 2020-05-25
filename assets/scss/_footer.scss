@@ -1,0 +1,51 @@
+/*--
+    14. Fotter Area Css
+-------------------------------*/
+.footer-content-area {
+    padding-top: 60px;
+    &.fotter-content-two {
+        padding-top: 0;
+        background: $theme-color;
+    }
+}
+.footer-logo {
+    & h4 {
+        font-weight: 400;
+        color: #FFB300;
+        margin-top: 10px;
+    }
+}
+.footer-content {
+    text-align: center;
+    padding: 40px 0 50px;
+    color: #000000;
+    & p {
+        margin: 15px 0;
+        color: #7F8398;
+    }
+    & .social-link {
+        & a {
+            color: #000000;
+            font-size: 20px;
+            width: 40px;
+            text-align: center;
+            height: 40px;
+            line-height: 36px;
+            display: inline-block;
+            border-radius: 50%;
+            margin: 0 3px;
+            &:hover i {
+                color: $gold;
+            }
+        }
+    }
+}
+.footer-menu {
+    & ul {
+        display: flex;
+        justify-content: center;
+        & li {
+            margin: 0 10px;
+        }
+    }
+}

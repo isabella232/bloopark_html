@@ -1,0 +1,23 @@
+/*--
+   13. Contact Area Css
+-------------------------*/
+
+.contact-area {
+    .section-title {
+        & h2 {
+            font-weight: 600;
+            position: relative;
+        }
+        &:before {
+            content: '';
+            background: url(../images/point.png);
+            width: 90px;
+            height: 210px;
+            position: absolute;
+            left: -30px;
+            top: -20px;
+            background-size: 20px;
+        }
+
+    }
+}
